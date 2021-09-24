@@ -1,0 +1,197 @@
+(netlist "C:\CADENCE\CADS\KWTRAFFICSIGNAL.DSN"
+  (compinst "C1"
+    (patternName "CAP196")
+    (compvalue "10uF"))
+  (compinst "C2"
+    (patternName "CAP196")
+    (compvalue "47uF"))
+  (compinst "C3"
+    (patternName "CAPCK05")
+    (compvalue "0.1uF"))
+  (compinst "C4"
+    (patternName "CAPCK05")
+    (compvalue "0.1uF"))
+  (compinst "C5"
+    (patternName "CAP196")
+    (compvalue "1uF"))
+  (compinst "C6"
+    (patternName "CAP196")
+    (compvalue "1uF"))
+  (compinst "D1"
+    (patternName "CAP196")
+    (compvalue "Y_CAR"))
+  (compinst "D3"
+    (patternName "CAP196")
+    (compvalue "R_CAR"))
+  (compinst "D4"
+    (patternName "CAP196")
+    (compvalue "G_PEP"))
+  (compinst "D5"
+    (patternName "CAP196")
+    (compvalue "R_PEP"))
+  (compinst "D6"
+    (patternName "CAP196")
+    (compvalue "Changeswitch"))
+  (compinst "D7"
+    (patternName "CAP196")
+    (compvalue "Y_CAR"))
+  (compinst "IC1"
+    (patternName "DIP794W53P254L959H508Q8N")
+    (compvalue "NE555P"))
+  (compinst "IC2"
+    (patternName "DIP794W53P254L959H508Q8N")
+    (compvalue "NE555P"))
+  (compinst "IC3"
+    (patternName "DIP794W53P254L1930H508Q14N")
+    (compvalue "SN74LS74AN"))
+  (compinst "IC4"
+    (patternName "DIP794W53P254L1930H508Q14N")
+    (compvalue "SN74LS08NE4"))
+  (compinst "J1"
+    (patternName "JUMPER2")
+    (compvalue "CON2"))
+  (compinst "LS1"
+    (patternName "PS1240P02BT")
+    (compvalue "PS1240P02BT"))
+  (compinst "Q2"
+    (patternName "BC33740TA")
+    (compvalue "BC549BTA"))
+  (compinst "R1"
+    (patternName "AXRC05")
+    (compvalue "10k"))
+  (compinst "R2"
+    (patternName "AXRC05")
+    (compvalue "1M"))
+  (compinst "R3"
+    (patternName "AXRC05")
+    (compvalue "100"))
+  (compinst "R4"
+    (patternName "AXRC05")
+    (compvalue "200"))
+  (compinst "R5"
+    (patternName "AXRC05")
+    (compvalue "330"))
+  (compinst "R6"
+    (patternName "AXRC05")
+    (compvalue "1k"))
+  (compinst "R7"
+    (patternName "AXRC05")
+    (compvalue "1k"))
+  (compinst "R8"
+    (patternName "AXRC05")
+    (compvalue "330"))
+  (compinst "S4"
+    (patternName "TL1105RF160Q94VO")
+    (compvalue "TL1105RF160Q94VO"))
+  (compinst "U1"
+    (patternName "TO220AB")
+    (compvalue "LM7805C/TO220"))
+  (net "9V"
+    (node "C1" "1")
+    (node "J1" "1")
+    (node "R1" "2")
+    (node "IC1" "4")
+    (node "IC1" "8")
+    (node "U1" "1")
+    (node "LS1" "1")
+    (node "IC2" "8")
+    (node "R7" "2"))
+  (net "GND"
+    (node "C6" "2")
+    (node "C4" "2")
+    (node "C1" "2")
+    (node "C5" "2")
+    (node "R8" "2")
+    (node "IC3" "7")
+    (node "J1" "2")
+    (node "C3" "1")
+    (node "D1" "1")
+    (node "IC1" "1")
+    (node "IC4" "7")
+    (node "C2" "2")
+    (node "D4" "1")
+    (node "U1" "2")
+    (node "D3" "1")
+    (node "R6" "1")
+    (node "D7" "1")
+    (node "D5" "1")
+    (node "IC2" "1")
+    (node "IC2" "2")
+    (node "Q2" "3"))
+  (net "N23864"
+    (node "IC3" "4")
+    (node "IC3" "14")
+    (node "IC3" "10")
+    (node "C3" "2")
+    (node "IC4" "14")
+    (node "C2" "1")
+    (node "U1" "3"))
+  (net "N23900"
+    (node "R2" "1")
+    (node "R1" "1")
+    (node "IC1" "7"))
+  (net "N24026"
+    (node "IC3" "6")
+    (node "IC4" "1"))
+  (net "N24054"
+    (node "C5" "1")
+    (node "R2" "2")
+    (node "IC1" "2")
+    (node "IC1" "6"))
+  (net "N24066"
+    (node "R4" "1")
+    (node "IC3" "8")
+    (node "IC4" "2"))
+  (net "N24074"
+    (node "C4" "1")
+    (node "IC1" "5"))
+  (net "N24086"
+    (node "D1" "2")
+    (node "IC4" "3"))
+  (net "N24238"
+    (node "IC3" "3")
+    (node "IC3" "11")
+    (node "IC1" "3"))
+  (net "N24374"
+    (node "IC3" "1")
+    (node "IC3" "13"))
+  (net "N244581"
+    (node "R3" "2")
+    (node "D3" "2"))
+  (net "N24502"
+    (node "IC3" "9")
+    (node "R3" "1")
+    (node "D4" "2"))
+  (net "N245821"
+    (node "R4" "2")
+    (node "D5" "2"))
+  (net "N24626"
+    (node "LS1" "2")
+    (node "Q2" "2"))
+  (net "N24670"
+    (node "R5" "1")
+    (node "Q2" "1"))
+  (net "N24674"
+    (node "IC3" "5")
+    (node "IC3" "12")
+    (node "D7" "2"))
+  (net "N24760"
+    (node "R5" "2"))
+  (net "N24924"
+    (node "IC3" "2")
+    (node "R6" "2"))
+  (net "N24964"
+    (node "C6" "1")
+    (node "IC2" "4")
+    (node "IC2" "5"))
+  (net "N25040"
+    (node "IC2" "6")
+    (node "IC2" "7"))
+  (net "N25052"
+    (node "D6" "2")
+    (node "IC2" "3"))
+  (net "N25104"
+    (node "R7" "1"))
+  (net "N25136"
+    (node "D6" "1")
+    (node "R8" "1")))
